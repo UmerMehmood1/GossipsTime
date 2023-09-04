@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/preview_iv"
+        android:scaleType="fitXY"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Anything..."
+        android:layout_margin="5dp"
+        android:id="@+id/et_preview"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove"
+            android:background="@drawable/btnback"
+            android:id="@+id/preview_removebtn"
+            android:layout_margin="2dp"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:background="@drawable/btnback"
+            android:id="@+id/preview_uploadbtn"
+            android:layout_margin="2dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb_preview"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

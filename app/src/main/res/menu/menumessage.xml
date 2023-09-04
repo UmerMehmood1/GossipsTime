@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/searchm"
+        android:title="Search"
+        />
+
+    <item android:id="@+id/clearchatm"
+        android:title="Clear chat" />
+
+    <item android:id="@+id/optionm"
+        android:title="Export chat" />
+
+</menu>

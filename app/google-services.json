@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "540462038880",
+    "firebase_url": "https://gossipstime-bf1eb-default-rtdb.firebaseio.com",
+    "project_id": "gossipstime-bf1eb",
+    "storage_bucket": "gossipstime-bf1eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540462038880:android:1dd25b7e864408adc5a805",
+        "android_client_info": {
+          "package_name": "com.app.gossipstime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540462038880-k7q8habutpqv0ct0jl3872um5rc0dt33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.gossipstime",
+            "certificate_hash": "548eb2154c5349f4948a020f0acc357e9088e2b0"
+          }
+        },
+        {
+          "client_id": "540462038880-vd19lep7o26vc0b5cufftmhio1d4btue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc5Cgc28BFGhUS1sT_MGT9ZL4NLeWcSzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540462038880-hfa6nfv5sdsh0s76mlb25bbvsv85o3od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

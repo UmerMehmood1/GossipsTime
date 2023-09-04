@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_backfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@drawable/llbottomback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Viewed by 0"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/viewbytv"
+        android:layout_weight="1"
+        android:textSize="20sp"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/more_btn_view"
+        android:src="@drawable/ic_baseline_more_vert_24"
+        />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No views yet"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/noviewsyettv"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/rv_viewbs"
+        android:visibility="gone"
+        android:layout_margin="4dp" />
+
+
+</LinearLayout>
